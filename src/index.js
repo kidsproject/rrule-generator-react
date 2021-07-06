@@ -1,6 +1,5 @@
-import React from 'react';
-import styles from './styles.module.css';
+import ReactRRuleGenerator from './components/ReactRRuleGenerator';
+import translations from './translations';
 
-export const ExampleComponent = ({ text }) => {
-    return <div className={styles.test}>Example Component: {text}</div>;
-};
+export default ReactRRuleGenerator;
+export { translations };

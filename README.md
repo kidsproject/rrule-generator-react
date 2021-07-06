@@ -13,15 +13,15 @@ npm install --save rrule-generator-react
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MyComponent from 'rrule-generator-react'
-import 'rrule-generator-react/dist/index.css'
+import MyComponent from 'rrule-generator-react';
+import 'rrule-generator-react/dist/index.css';
 
 class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+    render() {
+        return <MyComponent />;
+    }
 }
 ```
 

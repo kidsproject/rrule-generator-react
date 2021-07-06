@@ -1,10 +1,18 @@
 {
-  "singleQuote": true,
-  "jsxSingleQuote": true,
-  "semi": false,
-  "tabWidth": 2,
-  "bracketSpacing": true,
-  "jsxBracketSameLine": false,
-  "arrowParens": "always",
-  "trailingComma": "none"
+    "singleQuote": true,
+    "useTabs": false,
+    "tabWidth": 4,
+    "semi": true,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "always",
+    "trailingComma": "none",
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
 }

@@ -38,6 +38,11 @@ export const EndWrapper = styled.div`
 export const OptionWrapper = styled.div`
     display: flex;
     padding-left: 10px;
+    align-items: center;
+
+    .rdtPicker {
+        position: fixed;
+    }
 
     div {
         padding-right: 10px;
@@ -48,6 +53,7 @@ export const OptionWrapper = styled.div`
 
     @media (max-width: 576px) {
         flex-direction: column;
+        align-items: flex-start;
         padding-left: 0;
 
         div {

@@ -10,6 +10,7 @@ export const OptionWrapper = styled.div`
     flex-direction: row;
     opacity: ${(props) => (!props.isActive ? 0.5 : null)};
     padding-bottom: 10px;
+    align-items: center;
 
     div {
         padding-right: 10px;
@@ -20,6 +21,7 @@ export const OptionWrapper = styled.div`
 
     @media (max-width: 576px) {
         flex-direction: column;
+        align-items: flex-start;
         div {
             padding-bottom: 10px;
         }

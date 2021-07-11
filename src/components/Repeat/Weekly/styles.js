@@ -9,6 +9,7 @@ export const IntervalWrapper = styled.div`
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
+    align-items: center;
 
     div {
         padding-right: 10px;
@@ -18,6 +19,7 @@ export const IntervalWrapper = styled.div`
     }
     @media (max-width: 576px) {
         flex-direction: column;
+        align-items: flex-start;
         div {
             padding-bottom: 10px;
         }

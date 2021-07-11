@@ -40,11 +40,13 @@ const RepeatMonthlyOn = ({
                     disabled={!isActive}
                     onChange={numericalFieldHandler(handleChange)}
                 >
-                    {[...new Array(31)].map((day, i) => (
-                        <option key={i} value={i + 1}>
-                            {i + 1}
-                        </option>
-                    ))}
+                    {Array.from({ length: 31 })
+                        .fill(undefined)
+                        .map((day, i) => (
+                            <option key={i} value={i + 1}>
+                                {i + 1}
+                            </option>
+                        ))}
                 </select>
             </div>
         </Styled.OptionWrapper>
